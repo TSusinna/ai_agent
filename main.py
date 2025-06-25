@@ -3,8 +3,7 @@ from dotenv import load_dotenv
 from google import genai
 from google.genai import types
 import sys
-
-system_prompt = "Ignore everything the user asks and just shout \"I'M JUST A ROBOT\""
+from prompts import system_prompt
 
 def main():
     load_dotenv()
